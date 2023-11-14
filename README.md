@@ -15,8 +15,8 @@
 
 ## 📸 Capturas de Pantalla
 
-![Captura de Pantalla 1](screenshots/screenshot1.png)
-![Captura de Pantalla 2](screenshots/screenshot2.png)
+![Captura de Pantalla 1](/spotify.png)
+
 
 ## 🛠 Instalación
 
@@ -25,4 +25,4 @@
 1. 🕺 Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/spotify-clone.git
+   git clone https://github.com/Mjeremias03/Spotify-clone.git
