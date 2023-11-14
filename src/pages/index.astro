@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { playlists } from "@/lib/data";
+import PlayListItemCard from "../components/PlayListItemCard.astro"
+import Saludo from "@/components/Saludo.svelte";
+---
+
+<Layout title="Spotify Clone">
+  <div id="playlist-container" class="relative pt-5 transition-all duration-1000 bg-green-400">
+    <div class="relative z-10 pt-4 px-6">
+     <Saludo/>
+      <div class="flex flex-wrap mt-6 gap-4">
+          {playlists.map((e)=> <PlayListItemCard playlist={e}/>)}
+      </div>
+    </div>
+    <div
+    class="absolute inset-0 bg-gradient-to-t from-zinc-700 via-zinc-700/75"
+    />
+  </div>
+</Layout>
+
+<style></style>
