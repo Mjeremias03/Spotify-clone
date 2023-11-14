@@ -15,7 +15,8 @@
 
 ## 📸 Capturas de Pantalla
 
-![Captura de Pantalla 1](/spotify.png)
+![Captura de Pantalla 1](/public/spotify.png)
+
 
 
 ## 🛠 Instalación
